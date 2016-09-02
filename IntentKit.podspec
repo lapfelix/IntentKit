@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
     ss.dependency "MWLayoutHelpers"
     ss.resource_bundles = { 'IntentKit' => 'IntentKit/{**/*.strings,Images/*.png}',
                             'IntentKit-Defaults' => "IntentKit/Apps/Defaults/*.{plist,png}",
-                            'IntentKit-INKBrowserHandler' => "IntentKit/Apps/{Chrome,Safari,1Password,INKWebView}/*.{plist,png}" }
+                            'IntentKit-INKBrowserHandler' => "IntentKit/Apps/{Chrome,Safari,1Password,INKWebView}/*.{plist,png}",
+                            'IntentKit-Localizations' => "IntentKit/IntentKit-Localizations.bundle/{**/*.strings}" }
     ss.requires_arc = true
   end
 
